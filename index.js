@@ -38,3 +38,19 @@ console.log(programmingLanguage);
      return fruit;
      }
      console.log(changeFruit( fruit ));
+
+     //the value would be [ 'apple', 'mango', 'orange' ]
+
+// question 4. Write a function that accepts an array of numbers as an argument. Return the maximum value in the array.
+       
+        function maxNumber(arr) {
+          let max = arr[0]
+          for (let index = 0; index < arr.length; index++) {
+            if (arr[index] > max)
+            max = arr [index];
+            
+          }
+          return max;
+        }
+        let arr = [25,67,14,-10, 100];
+        console.log("Maximum value is " + "" + maxNumber(arr));
