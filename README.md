@@ -1,8 +1,7 @@
 ### Arrays & Functions Assignment
 
 - 1. For this assignment, create a folder and name it arrays-functions. Create an ‘index.js’ file and put all your answers in there. Separate your answers using comments. Push your work into a Github repository and submit the Github repository link in Citrone.
-
-What are the differences between mutating array methods and non-mutation array methods in JavaScript. List 5 array methods that fall under each of them.
+- What are the differences between mutating array methods and non-mutation array methods in JavaScript. List 5 array methods that fall under each of them.
 
 - 2. Here is an array of languages: [‘C#’, ‘JavaScript’, ‘Ruby’, ‘PHP’, ‘Python’]. Perform this operation on them
      Add ‘Kotlin’ to the end of the array

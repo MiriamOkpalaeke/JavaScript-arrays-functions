@@ -30,3 +30,11 @@ console.log(programmingLanguage);
 //Replace ‘PHP’ with ‘Go’ and ‘Rust’
 programmingLanguage.splice(5,1,'Go', 'Rust');
 console.log(programmingLanguage);
+
+//question 3. What will be the value of fruit after calling the function changeFruit?
+     let fruit = ['apple', 'mango', 'banana'];
+     function changeFruit( fruit ) {
+     fruit[2] = "orange";
+     return fruit;
+     }
+     console.log(changeFruit( fruit ));
