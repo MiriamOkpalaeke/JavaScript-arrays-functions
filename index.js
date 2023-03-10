@@ -43,14 +43,24 @@ console.log(programmingLanguage);
 
 // question 4. Write a function that accepts an array of numbers as an argument. Return the maximum value in the array.
        
-        function maxNumber(arr) {
-          let max = arr[0]
-          for (let index = 0; index < arr.length; index++) {
-            if (arr[index] > max)
-            max = arr [index];
+        function maxNumber(arrayOfNumbers) {
+          let max = arrayOfNumbers[0]
+          for (let index = 0; index < arrayOfNumbers.length; index++) {
+            if (arrayOfNumbers[index] > max)
+            max = arrayOfNumbers [index];
             
           }
           return max;
         }
-        let arr = [25,67,14,-10, 100];
-        console.log("Maximum value is " + "" + maxNumber(arr));
+        let arrayOfNumbers = [4, 5, 10, -2];
+        console.log(maxNumber(arrayOfNumbers));
+
+// question 5. 
+      function valTimesIndex (numbersMultipliedByIndex) {
+     return numbersMultipliedByIndex.map((enteredValue,index) => enteredValue * index);
+   } 
+   let arraysValue = [5,10,15] ;
+   let multipliedValue = valTimesIndex(arraysValue);
+
+   console.log(multipliedValue);
+        
